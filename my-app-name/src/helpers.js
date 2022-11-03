@@ -1,6 +1,6 @@
 const choice = ({items}) => {
-    let rando = Math.floor(Math.Random() * items.length)
-    return items[rando];
+    let rand = Math.floor(Math.Random() * items.length)
+    return items[rand];
 }
 
 const remove = ({item, items}) => {
